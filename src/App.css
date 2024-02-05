@@ -1,0 +1,58 @@
+#containerMusic {
+  margin-bottom: 50px;
+}
+
+.song {
+  padding: 5px;
+  border-bottom: 1px solid #4B4B4B;
+}
+
+.numberSong {
+  padding-right: 10px;
+  font-weight: bolder;
+  color: white;
+}
+
+.selectedSong {
+  background-color: #565656;
+}
+
+#audioPlayer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #1E1E1E;
+  height: 60px;
+}
+
+i {
+  margin: 15px;
+  color: white;
+}
+
+/* Media Queries para ajustar el tamaño de los iconos */
+
+/* Para pantallas de hasta 480px */
+@media (max-width: 480px) {
+  .fa-2xl {
+    font-size: 1.5rem;
+  }
+}
+
+/* Para pantallas entre 481px y 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+  .fa-2xl {
+    font-size: 2rem;
+  }
+}
+
+/* Para pantallas entre 769px y 1024px */
+@media (min-width: 769px) {
+  .fa-2xl {
+    font-size: 2.5rem;
+  }
+}
